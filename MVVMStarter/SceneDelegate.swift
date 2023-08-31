@@ -5,7 +5,8 @@
 //  Created by Mushfiq Humayoon on 16/06/23.
 //
 
-import UIKit
+import DesignKit
+import RepoKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -47,7 +48,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // to restore the scene back to its current state.
 
         // Save changes in the application's managed object context when the application transitions to the background.
-        (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
+        Dependencies.shared.dbManager.saveContext()
     }
 
 

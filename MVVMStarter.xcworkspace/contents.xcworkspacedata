@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "container:"
+      name = "Features">
+      <FileRef
+         location = "group:Features/Product/Product.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Shared">
+      <FileRef
+         location = "group:Shared/RepoKit/RepoKit.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Shared/DesignKit/DesignKit.xcodeproj">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:MVVMStarter.xcodeproj">
+   </FileRef>
+</Workspace>
